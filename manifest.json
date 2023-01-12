@@ -1,0 +1,10 @@
+{
+    "name": "Insanity Plugin",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Manipulates DOM elements in a way that makes the user feel as though they're going insane.",
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
