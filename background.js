@@ -198,7 +198,7 @@ function buildTransform() {
     let transformParams = ''
 
     for (param of randomTransform.params) {
-        x = 0
+        let x;
         switch (param.type) {
             case 'decimal':
                 x = round(randomDecimal(param.max ?? 100))
